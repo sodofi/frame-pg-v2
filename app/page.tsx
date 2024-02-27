@@ -5,27 +5,41 @@ import { NEXT_PUBLIC_URL } from './config';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Go back',
-    },
-    {
       action: 'link',
-      label: 'Click to donate',
+      label: 'Link to Google',
       target: 'https://www.google.com',
-    },
-    {
-      label: 'Next project',
-      action: 'post_redirect',
     },
   ],
   image: {
     src: `${NEXT_PUBLIC_URL}/park-3.png`,
     aspectRatio: '1:1',
   },
-  input: {
-    text: 'Donate to your fave PGs',
-  },
-  postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
+
+// const frameMetadata = getFrameMetadata({
+//   buttons: [
+//     {
+//       label: 'Go back',
+//     },
+//     {
+//       action: 'link',
+//       label: 'Click to donate',
+//       target: 'https://www.google.com',
+//     },
+//     {
+//       label: 'Next project',
+//       action: 'post_redirect',
+//     },
+//   ],
+//   image: {
+//     src: `${NEXT_PUBLIC_URL}/park-3.png`,
+//     aspectRatio: '1:1',
+//   },
+//   input: {
+//     text: 'Donate to your fave PGs',
+//   },
+//   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
+// });
 
 export const metadata: Metadata = {
   title: 'zizzamia.xyz',
