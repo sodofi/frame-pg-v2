@@ -6,8 +6,8 @@ const frameMetadata = getFrameMetadata({
   buttons: [
     {
       action: 'link',
-      label: 'Link to Google',
-      target: 'https://www.google.com',
+      label: 'Thanks for Donating. Mint your PG!',
+      target: 'https://mint.fun/base/0xDCD6baA15A17690F75f16f2344DA05A40268B90a',
     },
   ],
   image: {
